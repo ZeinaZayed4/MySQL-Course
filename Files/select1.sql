@@ -1,0 +1,12 @@
+USE store;
+
+SELECT * FROM `users`;
+
+SELECT user_id, username FROM `users`;
+
+SELECT CURRENT_DATE;
+
+SELECT NOW();
+
+SELECT MD5('123456');
+SELECT SHA('123456');
